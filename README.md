@@ -436,6 +436,7 @@ ok      hello-go/greeting
 ```powershell
 docker build -t hello-go .
 ```
+<img width="1794" height="517" alt="image" src="https://github.com/user-attachments/assets/8c3a20cf-f22c-4780-add0-1fcbeacd123a" />
 
 В конце должно быть что-то вроде:
 
@@ -757,6 +758,8 @@ Go CI/CD
 ✓ Build and push Docker image
 ```
 
+<img width="2175" height="895" alt="image" src="https://github.com/user-attachments/assets/c4840f77-518d-4694-819e-a32d3eb9cbf2" />
+
 Если все пункты зелёные — CI/CD отработал успешно.
 
 ---
@@ -782,6 +785,7 @@ GitHub будет хранить Docker-образ примерно как:
 ```text
 ghcr.io/ВАШ_USERNAME/hello-go
 ```
+<img width="764" height="166" alt="image" src="https://github.com/user-attachments/assets/62194fa4-7332-4f7b-a95a-1061c6c35a39" />
 
 Исходное задание указывает, что после выполнения workflow пакет должен появиться в `Packages`. 
 
